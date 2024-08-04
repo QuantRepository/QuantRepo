@@ -5,7 +5,7 @@ require(hrbrthemes)
 require(wesanderson)
 
 
-
+combinedData <- read.csv("Your_Data.csv")
 home_goal_times <- vector("list", nrow(combinedData))
 
 for (i in 1:nrow(combinedData)) {
